@@ -1,0 +1,59 @@
+body{
+    margin: 4;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #0f0f0f;
+    color: white;
+    width: 500px;
+}
+
+h1, p{
+    margin: 0;
+    padding: 0;
+}
+
+a, a:visited{
+    color: white;
+}
+
+.active{
+    color: greenyellow;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.notActive{
+    color: rgb(255, 206, 47);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.version{
+    font-size: 10px;
+    opacity: 0.3;
+}
+
+.picker{
+    background-color: transparent;
+    border: none;
+}
+
+.pashalka{
+    position: relative;
+    width: 180px;
+    height: 280px;
+    animation: pashalkaa 1s infinite;
+}
+
+@keyframes pashalkaa {
+    0% {
+        transform: translateY(10px);
+    }
+  
+    50% {
+        transform: translateY(0px);
+    }
+
+    100% {
+        transform: translateY(10px);
+    }
+}
