@@ -1,5 +1,5 @@
-# TelegramWeb-ChatMoveToRight
-Расширение для chromium браузеров которое переместит ваш чат вправо
+# TelegramWeb-ChatMoveToLeft
+Расширение для chromium браузеров которое переместит ваш чат влево
 
 ### Установка
 
