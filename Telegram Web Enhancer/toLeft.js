@@ -1,6 +1,9 @@
 let chats = document.querySelectorAll("div.ListItem");
-refactor()
-toLeft()
+
+function activateChatLeft() {
+    refactor()
+    toLeft()
+}
 
 function chatclick() {
     document.getElementsByClassName("messages-container")[0].onDOMContentLoaded = toLeft();

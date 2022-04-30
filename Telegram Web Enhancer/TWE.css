@@ -1,0 +1,57 @@
+.TWE__Window{
+    position: absolute;
+    top: calc(50% - 250px);
+    left: calc(50% - 200px);
+    margin: 0 auto;
+    width: 500px;
+    height: 400px;
+    z-index: 999;
+    background-color: #414141;
+    border-radius: 20px;
+    padding: 10px;
+
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.TWE__Title{
+    padding: 0px;
+    margin: 0px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.TWE__Button{
+    background-color: #6e6e6e;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 18px;
+    padding: 7px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.TWE__Button:hover{
+    background-color: #9e9e9e;
+}
+
+.TWE__TextBox{
+    background-color: #6e6e6e;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 18px;
+    padding: 7px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 100px;
+}
+
+.TWE__TextBox::placeholder{
+    color: rgb(189, 189, 189);
+}
+
+.TWE__TextBox:hover{
+    background-color: #9e9e9e;
+}

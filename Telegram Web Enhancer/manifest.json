@@ -1,7 +1,7 @@
 {
-    "manifest_version": 2,
-    "name": "TelegramWeb-ChatMoveToRight",
-    "description": "Смещение чата в Telegram WEB Z вправо",
+    "manifest_version": 3,
+    "name": "Telegram Web Enhancer [ Z Version ]",
+    "description": "Делаем Telegram чуточку лучше!",
     "version": "1.0.0",
     "permissions": ["storage", "activeTab"],
     "content_scripts": [
@@ -9,10 +9,11 @@
           "matches": [
             "https://web.telegram.org/*"
           ],
-          "js": ["customizator.js"]
+          "js": ["starter.js", "toLeft.js", "tire.js", "color.js"],
+          "css": ["TWE.css"]
         }
     ],
-    "browser_action": {
+    "action": {
         "default_icon": "icon.png",
         "default_popup": "popup.html"
     }
