@@ -12,12 +12,8 @@ function chatclick() {
 function toLeft() {
     document.getElementsByClassName("messages-container")[0].style.margin = "0";
 
-    let flexy = document.getElementsByClassName("Transition__slide--active")
-
-    for (let i = 0; i < flexy.length; i++) {
-        const element = flexy[i];
-        element.style.alignItems = "flex-start";
-    }
+    let flexy = document.querySelector("#MiddleColumn > div.messages-layout > div.Transition > div")
+    flexy.style.alignItems = "flex-start";
 
     chats = document.querySelectorAll("div.ListItem");
     refactor()
